@@ -1,0 +1,38 @@
+### GTZAN Dataset 
+
+/Data
+
+
+### Ignore test data uploads
+
+*.wav
+*.m4a
+
+### Test Audio 
+### Ignore myelin data
+
+/feature_extractor/test_audio_split
+/feature_extractor/test_audio
+/splitter/test_audio
+/feature_extractor/myelin_music_data
+/test_data/myelin_test_split
+test_aud
+### Feature extractor myelin
+
+feature_extractor/feat_extract_myelin.py
+
+### Extracted features
+
+*gtzan_test_features.csv
+
+
+###
+.~lock*
+
+### jupyter checkpoints
+/notebooks/.ipynb_checkpoints
+
+
+#### app pycache
+
+__pycache__
